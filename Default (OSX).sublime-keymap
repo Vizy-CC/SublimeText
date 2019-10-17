@@ -1,0 +1,49 @@
+[
+    {
+        "keys": ["super+shift+o"],
+        "command": "reopen_last_file"
+    },
+    {
+        "keys": ["super+backspace"],
+        "command": "run_macro_file",
+        "args":
+        {
+            "file": "res://Packages/Default/Delete Line.sublime-macro"
+        }
+    },
+
+    {
+
+        "keys": ["super+delete"],
+        "command": "run_macro_file",
+        "args":
+        {
+            "file": "res://Packages/Default/Delete Line.sublime-macro"
+        }
+    },
+    {
+        "keys": ["ctrl+shift+k"],
+        "command": "run_macro_file",
+        "args":
+        {
+            "file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+        }
+    },
+    {
+        "keys": ["alt+space"],
+        "command": "auto_complete"
+    },
+    {
+        "keys": ["super+."],
+        "command": "bh_key",
+        "args":
+        {
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.foldbracket"
+            }
+        }
+    },
+
+]

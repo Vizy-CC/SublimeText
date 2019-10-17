@@ -1,0 +1,15 @@
+{
+  "all":
+  {
+    "end_with_newline": true,
+    "indent_size": 2,
+    "max_preserve_newlines": 2,
+    "preserve_newlines": true,
+  },
+  "html":
+  {
+    "indent_scripts": "normal",
+    // "preserve_newlines": false,
+    "max_preserve_newlines": 0,
+  },
+}
